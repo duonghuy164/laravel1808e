@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/hello',function(){
 	return 'hello word';
 });
+Route::get('/hi-you',function(){
+	return "this is valentine day!";
+
+});
